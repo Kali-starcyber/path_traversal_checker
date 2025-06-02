@@ -25,7 +25,7 @@ sudo apt install golang
 
 📦 Installation
 
-git clone https://github.com/yourname/path-traversal-go
+git clone https://github.com/Kali-starcyber/path_traversal_checker.git
 cd path-traversal-go
 go mod init path-traversal
 go get github.com/fatih/color
@@ -40,6 +40,6 @@ http://api.example.com
 
 2. Run the scanner:
 
-go run path_traversal_checker.go subdomains.txt
+go run path_traversal_checker.go /path/subdomains.txt
 
 
